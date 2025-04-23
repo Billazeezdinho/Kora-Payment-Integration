@@ -2,8 +2,8 @@ const { initializePayment, verifyPayment } = require('../controller/transactionC
 
 const router = require('express').Router()
 
-router.post('/initialize', initializePayment)
+router.post('/api/initializePayment/', initializePayment)
 
 router.get('/verify', verifyPayment)
 
-module.exports = router;
+module.exports = router;    
