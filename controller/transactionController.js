@@ -43,7 +43,7 @@ exports.initializePayment = async (req, res) =>{
         await payment.save();
 
         res.status(200).json({
-            message:'payment initialize Successfully',
+            message:' payment initialize Successfully',
             data:{
                 reference: data?.reference,
                 checkout_url: data?.checkout_url
