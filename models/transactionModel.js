@@ -1,4 +1,4 @@
-const { timeStamp } = require('console');
+
 const mongoose = require('mongoose');
 
 const transactionSchema = new mongoose.Schema({
